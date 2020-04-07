@@ -1,0 +1,19 @@
+{
+    "MENU": {
+        "HOME": "Домой",
+        "ABOUT": "О нас",
+        "CONTACT": "Контакты"
+    },
+    "PAGES": {
+        "HOME": {
+            "TITLE": "Добро пожаловать Angular App",
+            "MESSAGE": "Привет из Домой"
+        },
+        "ABOUT": {
+            "MESSAGE": "Привет из О нас"
+        },
+        "CONTACT": {
+            "MESSAGE": "Привет из Контакты"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<nav class="menu">
+    <div class="container">
+        <div class="row">
+            <ul class="d-flex justify-content-between col-md-3">
+              <li>
+                <a [routerLink]="['']" routerLinkActive="router-link-active">
+                  {{"MENU.HOME" |translate}}
+                </a>
+              </li>
+              <li>
+                <a [routerLink]="['/about']" routerLinkActive="router-link-active">
+                  {{"MENU.ABOUT" |translate}}
+                </a>
+              </li>
+              <li>
+                <a [routerLink]="['/contact']" routerLinkActive="router-link-active">
+                  {{"MENU.CONTACT" |translate}}
+                </a>
+              </li>
+            </ul>
+            <label class="col-md-3">
+                <select #langSelect (change)="translate.use(langSelect.value)">
+                  <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+                </select>
+              </label>
+        </div>
+    </div>
+</nav>

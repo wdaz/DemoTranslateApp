@@ -1,0 +1,19 @@
+{
+    "MENU": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "CONTACT": "Contact"
+    },
+    "PAGES": {
+        "HOME": {
+            "TITLE": "Welcome Angular App",
+            "MESSAGE": "Hi from Home Page"
+        },
+        "ABOUT": {
+            "MESSAGE": "Hi from About Page"
+        },
+        "CONTACT": {
+            "MESSAGE": "Hi from Contact Page"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "MENU": {
+        "HOME": "Ev",
+        "ABOUT": "Haqqımızda",
+        "CONTACT": "Əlaqə"
+    },
+
+    "PAGES": {
+        "HOME": {
+            "TITLE": "Angular App xoş gəlmisiniz",
+            "MESSAGE": "Ev səhifəsində salam"
+        },
+        "ABOUT": {
+            "MESSAGE": "Haqımızda səhifəsindən salam"
+        },
+        "CONTACT": {
+            "MESSAGE": "Əlaqə səhifəsindən salam"
+        }
+    }
+}
